@@ -1,0 +1,53 @@
+.viloyat{
+    background-color:#F2F4F7;
+    height: 100vh;
+    padding: 20px !important;
+    z-index: 0;
+    margin-left: 250px;
+    top: 0;
+    transition: 850ms;
+    .close{
+        background-color: white !important;
+        border: none !important;   
+        font-size: 30px !important;
+    }
+    .add{
+        color: white;
+        background-color: #03a9f4 !important;
+        font-family: Roboto,sans-serif,serif;
+        font-size: 14px;
+        border: 1px solid #03a9f4;
+    }
+    table{
+        margin-top: 2rem;
+        box-shadow: 0px 0px 8px 1px #c7cace;
+        background-color: white;
+        color: #86939e; 
+        font-family: Roboto,sans-serif,serif;
+        thead{
+            tr{
+                th{
+                    border-bottom: 0 !important;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    p{
+                        color: #86939e; 
+                        font-family: Roboto,sans-serif,serif;
+                        font-size: 14px;
+                    }
+                    .addstate{
+                        background-color: #03a9f4 !important;
+                        color: white;
+                        font-family: Roboto,sans-serif,serif;
+                        font-size: 14px;
+                        border: 1px solid #03a9f4;
+                    }
+                }
+            }
+        }
+    }
+}

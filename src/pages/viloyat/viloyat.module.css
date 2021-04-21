@@ -1,0 +1,52 @@
+.viloyat {
+  background-color: #F2F4F7;
+  height: 100vh;
+  padding: 20px !important;
+  z-index: 0;
+  margin-left: 250px;
+  top: 0;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.viloyat .close {
+  background-color: white !important;
+  border: none !important;
+  font-size: 30px !important;
+}
+
+.viloyat .add {
+  color: white;
+  background-color: #03a9f4 !important;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 14px;
+  border: 1px solid #03a9f4;
+}
+
+.viloyat table {
+  margin-top: 2rem;
+  -webkit-box-shadow: 0px 0px 8px 1px #c7cace;
+          box-shadow: 0px 0px 8px 1px #c7cace;
+  background-color: white;
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+}
+
+.viloyat table thead tr th {
+  border-bottom: 0 !important;
+}
+
+.viloyat table tbody tr td p {
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 14px;
+}
+
+.viloyat table tbody tr td .addstate {
+  background-color: #03a9f4 !important;
+  color: white;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 14px;
+  border: 1px solid #03a9f4;
+}
+/*# sourceMappingURL=viloyat.module.css.map */

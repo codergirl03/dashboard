@@ -1,0 +1,111 @@
+.users {
+  padding: 20px !important;
+  z-index: 0;
+  margin-left: 250px;
+  background-color: #F2F4F7;
+  height: 100vh;
+  top: 0;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.users table {
+  -webkit-box-shadow: 0px 0px 8px 1px #c7cace;
+          box-shadow: 0px 0px 8px 1px #c7cace;
+  background-color: white;
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+}
+
+.users table thead tr th {
+  border-bottom-width: 0 !important;
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.users table tbody tr td {
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 14px;
+}
+
+.users table tbody tr td span i {
+  color: #03a9f4;
+  cursor: pointer;
+}
+
+.users table tbody tr td .eye {
+  margin-left: 35px !important;
+}
+
+.users table tbody tr td .admin {
+  background-color: yellow;
+  padding: 2px;
+  border-radius: 4px;
+  margin-left: 0 !important;
+}
+
+.users table tbody tr td .cover__avatar {
+  padding: 10px;
+}
+
+.users table tbody tr td .cover__avatar a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.users table tbody tr td .cover__avatar a i {
+  background-color: #03a9f4;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.users table tbody tr td .cover__avatar .ml {
+  margin-left: 1rem;
+}
+
+.users table tbody tr td .cover__avatar .ml p {
+  margin-bottom: 0 !important;
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 14px;
+}
+
+.users table tbody tr td .cover__avatar .ml h6 {
+  color: #86939e;
+  font-family: Roboto,sans-serif,serif;
+  font-size: 14px;
+}
+
+.users table tbody tr td p i {
+  border: none !important;
+  font-size: 13px !important;
+  padding: 0px !important;
+  color: #03a9f4 !important;
+  margin-right: 2px;
+}
+
+.users table tbody tr td p .blink {
+  text-decoration: blink;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  background-color: #03a9f4 !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-animation: mymove 3s infinite;
+          animation: mymove 3s infinite;
+}
+/*# sourceMappingURL=users.module.css.map */

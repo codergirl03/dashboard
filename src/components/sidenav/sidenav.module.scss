@@ -1,0 +1,11 @@
+.body{
+    height: 100vh;
+    .open{
+        padding-left: 250px;
+        transition: all 0.3s linear;
+    }
+    .close{
+        padding-left: 60px;
+        transition: all 0.3s linear;
+    }
+}

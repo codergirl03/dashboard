@@ -1,0 +1,23 @@
+.login{
+    background-color: rgb(252, 252, 252);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form{ 
+    margin-left: 250px;
+    width: 30%;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-color:rgb(43, 159, 226);
+    border-radius: 5px;
+    padding: 20px;
+}
+.login__form h1{
+    text-align: center;
+}
+.login__form .btn__submit{
+    text-align: center;
+}

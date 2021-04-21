@@ -1,0 +1,16 @@
+.body {
+  height: 100vh;
+}
+
+.body .open {
+  padding-left: 250px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.body .close {
+  padding-left: 60px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+/*# sourceMappingURL=sidenav.module.css.map */

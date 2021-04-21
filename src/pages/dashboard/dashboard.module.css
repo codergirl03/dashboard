@@ -1,0 +1,58 @@
+.cover {
+  background-color: #F2F4F7;
+  padding: 20px !important;
+  z-index: 0;
+  height: 100vh;
+  margin-left: 250px;
+  top: 0;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.cover .cards .cover__card .card1 {
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 2px 0px #e6e3e3;
+          box-shadow: 2px 2px 2px 0px #e6e3e3;
+}
+
+.cover .cards .cover__card .card1 .words {
+  padding: 10px;
+}
+
+.cover .cards .cover__card .card1 .words .text__white {
+  color: #354558;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cover .cards .cover__card .card1 .words h6 {
+  margin-top: 1.5rem;
+  width: 110%;
+  font-size: 14px;
+}
+
+.cover .cards .cover__card .card1 .words h5 {
+  margin-top: 1rem;
+}
+
+.cover .cards .cover__card .card1 .words .progress {
+  margin-top: 3rem !important;
+  height: 5px !important;
+  width: 150% !important;
+}
+
+.cover .cards .cover__card .card1 .img {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover .cards .cover__card .card1 .img i {
+  font-size: 2.5rem !important;
+  padding: 13px;
+}
+
+.cover .cards .cover__card .card1 .img .cube:hover {
+  color: #2979ff !important;
+}
+/*# sourceMappingURL=dashboard.module.css.map */
